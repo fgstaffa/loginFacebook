@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    position: relative;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #3b5998;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 32px;
+    font-weight: bold;
+    width: 180px;
+    float: left;
+    padding-left: 200px;
+}
+
+nav{
+    padding-top: 20px;
+    padding-right: 60px;
+    float: right;
+    width: 485px;
+}
+
+nav form{
+    display: block;
+    width: 350px;
+    height: 60px;
+}
+
+#menu label[id=email_tel]{
+    display: block;
+    width: 105px;
+    font-size: 13px;
+    color: white;
+}
+
+#input_email_tel{
+    height: 20px;
+    width: 144px;
+    border: 0.5px solid black;
+}
+
+#menu label[id=senha]{
+    position: relative;
+    left: 0px;
+    top: -18px;
+    width: 45px;
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+}
+
+
+#input_senha{
+    position: relative;
+    left: -50px;
+    top: 0px;
+    height: 20px;
+    width: 144px;
+    border: 0.5px solid black;
+}
+
+#entrar{
+    color: white;
+    background-color: #4267b2;
+    position: relative;
+    left: 300px;
+    top: -46px;
+    font-weight: bold;
+    width: 50px;
+    height: 23px;
+    border: 0.5px solid #29487d;
+    border-radius: 2px;
+
+}
+
+#forgot{
+    color: #86aec4;
+    position: relative;
+    left: 98px;
+    top: -20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+main{
+    background-color: #d9ddeb;
+    width: 100%;
+    position: absolute;
+}
+
+#texto_img{
+    width: 500px;
+    position: relative;
+    left: 190px;
+    margin-top: 50px;
+}
+
+#texto_img p{
+    color: #0e385f;
+    
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+#conta{
+    position: relative;
+    left: 780px;
+    top: -300px;
+    width: 500px;
+    height: 100%;
+}
+
+#conta h2{
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+
+#conta p{
+    padding-bottom: 15px;
+    font-size: 19px;
+}
+
+#conta input{
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+#conta input[id=nome]{
+    width: 178px;
+    height: 15px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+#conta input[id=sobrenome]{
+    width: 158px;
+    height: 15px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+#conta input[id=celular_email], [id=nova_senha]{
+    width: 370px;
+    height: 15px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+#conta label[id=nascimento]{
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    top: 16px;
+    color: gray;
+    font-weight: bold;
+}
+
+#conta select{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 150px;
+    width: 55px;
+    height: 30px;
+    margin-right: -6px;
+}
+
+#conta img{
+    width:  16px;
+    position: relative;
+    top: 45px;
+    right: 140px;
+}
+
+#conta label[id=genero]{
+    display: inline-block;
+    position: relative;
+    right: 330px;
+    top: 90px;
+    color: gray;
+    font-weight: bold;
+}
+
+#sexo{
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+
+#sexo input{
+    position: relative;
+    top: -3px;
+    margin-right: 6px;
+}
+
+#sexo label{
+    margin-right: 15px;
+}
+
+#sexo img{
+    position: relative;
+    right: 365px;
+    top: 30px;
+}
+
+#politica{
+    position: relative;
+    top: 150px;
+    width: 310px;
+}
+
+#politica p{
+    color: gray;
+    font-size: 11px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#politica span{
+    color: #3b5998;
+}
+
+#politica input{
+    width: 193px;
+    height: 40px;
+    border: 1px solid rgba(100, 100, 100, 90%);
+    border-radius: 5px;
+    margin: 0;
+    color: white;
+    background-color: #609e4d;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#artista{
+    position: relative;
+    top: 190px;
+}
+
+#artista p, span{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#artista p{
+    color: gray;
+}
+
+#artista a{
+    text-decoration: none;
+    color: #3b5998;
+}
+
+
+
+#idioma{
+    position: absolute;
+    top: 130%;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10%;
+    border-bottom: 1px solid #737373;
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+#idioma p{
+    padding-left: 10px;
+    color:  #3b5998;
+    font-size: 12px;
+}
+
+#idioma p:first-child{
+    padding-left: 0;
+}
+
+#idioma input{
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    color: #4b4f56;
+}
+
+#idioma img{
+    width: 14px;
+    height: 14px;
+    position: relative;
+    left: -1.5%;
+    top: 2px;
+}
+
+
+#rodape{
+    position: absolute;
+    top: 143%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    width: 80%;
+    padding-bottom: 60px;
+}
+
+#rodape p{
+    color: #3b5998;
+    font-size: 12px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+}
